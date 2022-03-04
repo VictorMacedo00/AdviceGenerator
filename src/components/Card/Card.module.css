@@ -1,0 +1,47 @@
+.card {
+    width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    background-color: var(--dark-grayish-blue);
+}
+
+.card h1 {
+    margin: 50px 0px 20px 0px;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    color: var(--neon-green);
+}
+
+.advice {
+    max-width: 80%;
+    text-align: center;
+    color: var(--light-cyan);
+}
+
+.advice p {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.dice {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -30px;
+    border-radius: 50%;
+    background-color: var(--neon-green);
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.dice:hover {
+    box-shadow: 0px 0px 20px var(--neon-green);
+}
